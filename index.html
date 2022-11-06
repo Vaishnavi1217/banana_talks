@@ -5,11 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Talks</title>
+    <style>
+        #input-txt{
+            display: block;
+            border: 1px solid black;
+            padding: 1rem;
+            height: 6rem;
+            width: 80%;
+        }
+        #output-div{
+            display: block;
+            border: 1px solid black;
+            padding: 1rem;
+            height: 6rem;
+            width: 80%;
+        }
+    </style>
    </head>
 <body>
     <p>Banana Talk</p>
-    <textarea name="" id="input-txt"></textarea>
+    <textarea placeholder="Write your text in English" id="input-txt"></textarea>
+    <br>
     <button id="translate-btn">Translate My Text</button>
+    <div>Your translated will appear here!</div>
+    <div id="output-div"></div>
     <script src="app.js" rel="text/javascript"></script>
 </body>
 </html>
